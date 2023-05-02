@@ -11,7 +11,13 @@ load_config() {
         remote_ssh_user) remote_ssh_user="$value" ;;
         remote_ssh_server_ip) remote_ssh_server_ip="$value" ;;
 	monitoring_address) monitoring_address="$value";;
-        audio_output_directory) audio_output_directory=$(realpath "${script_dir}/${value}") ;;
+	audio_output_directory)
+          if [[ $value == /* ]]; then
+            audio_output_directory="$value"
+          else
+            audio_output_directory=$(realpath "${script_dir}/${value}")
+          fi
+        ;;
         default_duration) default_duration="$value" ;;
         default_format) default_format="$value" ;;
         log_file) 
