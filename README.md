@@ -147,6 +147,8 @@ This project follows a modular structure to make it easy to understand, maintain
 | `log`        | `README.md`               | Placeholder file to ensure directory structure in version control.       |
 | `recordings` | `README.md`               | Placeholder file to ensure directory structure in version control.       |
 
+## Prerequisites
+
 To use this script, you need to have the following software installed on both the local machine and the remote device:
 
 1. [FFmpeg](https://ffmpeg.org/download.html): A cross-platform solution to record, convert, and stream audio and video.
