@@ -95,6 +95,30 @@ Now you can run the `record_stream.sh` script from any location.
 
 This project follows a modular structure to make it easy to understand, maintain, and contribute to. Here's an overview of the organization and the purpose of each file and directory:
 
+```
+.
+├── bin
+│   └── record_stream.sh
+├── config
+│   └── config.ini
+├── CONTRIBUTING.md
+├── lib
+│   ├── audio_functions.sh
+│   ├── config_functions.sh
+│   ├── helper_functions.sh
+│   ├── logging_functions.sh
+│   ├── networking_functions.sh
+│   ├── scheduling_functions.sh
+│   ├── ssh_utils.sh
+│   └── validation_functions.sh
+├── LICENSE.md
+├── log
+│   └── README.md
+├── README.md
+└── recordings
+    └── README.md
+```
+
 ## Directories
 
 - `bin`: Contains the main script to start recording and streaming audio.
@@ -105,40 +129,23 @@ This project follows a modular structure to make it easy to understand, maintain
 
 ## Files
 
-### Top directory
-
-- `README.md`: This file contains the documentation, instructions, and guidelines for using and contributing to the project.
-- `CONTRIBUTING.md`: Guidelines for contributing to the project.
-- `LICENSE.md`: The license file for the project.
-
-### bin
-
-- `record_stream.sh`: The main script to start recording and streaming audio.
-
-### config
-
-- `config.ini`: Configuration file containing settings for the project.
-
-### lib
-
-- `audio_functions.sh`: Contains functions related to audio processing, such as starting the listening process and applying audio filters.
-- `config_functions.sh`: Functions to read and parse the `config.ini` file.
-- `helper_functions.sh`: General helper functions.
-- `logging_functions.sh`: Functions for logging messages, errors, and other information.
-- `networking_functions.sh`: Functions related to network operations, such as generating unique ports and make sure that generated ports are not already in use.
-- `scheduling_functions.sh`: Functions to manage scheduling of the recording process.
-- `ssh_utils.sh`: Functions for managing SSH connections and tunneling.
-- `validation_functions.sh`: Functions to validate user inputs and configuration settings.
-
-### log
-
-- `README.md`: A placeholder file to ensure the directory structure is maintained in version control.
-
-### recordings
-
-- `README.md`: A placeholder file to ensure the directory structure is maintained in version control.
-
-## Prerequisites
+| Directory    | File                      | Description                                                              |
+|--------------|---------------------------|--------------------------------------------------------------------------|
+| `.`          | `CONTRIBUTING.md`         | Guidelines for contributing to the project.                              |
+| `.`          | `LICENSE.md`              | License information for the project.                                     |
+| `.`          | `README.md`               | Main README file with project information and instructions.              |
+| `bin`        | `record_stream.sh`        | The main script to start recording and streaming audio.                  |
+| `config`     | `config.ini`              | Configuration file containing settings for the project.                  |
+| `lib`        | `audio_functions.sh`      | Functions related to audio processing.                                   |
+|              | `config_functions.sh`     | Functions to read and parse the `config.ini` file.                       |
+|              | `helper_functions.sh`     | General helper functions like logging, input validation, and scheduling. |
+|              | `logging_functions.sh`    | Functions for logging messages, errors, and other information.           |
+|              | `networking_functions.sh` | Functions related to network operations.                                 |
+|              | `scheduling_functions.sh` | Functions to manage scheduling of the recording process.                 |
+|              | `ssh_utils.sh             | Functions for managing SSH connections and tunneling.                    |
+|              | `validation_functions.sh` | Functions to validate user inputs and configuration settings.            |
+| `log`        | `README.md`               | Placeholder file to ensure directory structure in version control.       |
+| `recordings` | `README.md`               | Placeholder file to ensure directory structure in version control.       |
 
 To use this script, you need to have the following software installed on both the local machine and the remote device:
 
@@ -170,7 +177,7 @@ sudo yum install ffmpeg
 
 ##### FreeBSD
 
-On FreeBSD, you can install ffmpeg with the following command:
+On FreeBSD, you can install FFmpeg with the following command:
 
 ```bash
 pkg install multimedia/ffmpeg
@@ -178,7 +185,7 @@ pkg install multimedia/ffmpeg
 
 ##### OpenBSD
 
-On OpenBSD, you can install ffmpeg with the following command:
+On OpenBSD, you can install FFmpeg with the following command:
 
 ```bash
 pkg_add ffmpeg
