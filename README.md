@@ -353,19 +353,19 @@ crontab -e
 - Run the script every day at 2:30 PM and record 1 hour of audio in MP3 format:
 
 ```
-30 14 * * * /path/to/record_stream.sh 3600 mp3
+30 14 * * * /path/to/record_stream.sh -d 3600 -f mp3
 ```
 
 - Run the script every Monday at 4:00 AM and record 30 minutes of audio in WAV format:
 
 ```
-0 4 * * 1 /path/to/record_stream.sh 1800 wav
+0 4 * * 1 /path/to/record_stream.sh -d 1800 -f wav
 ```
 
 - Run the script on the 1st of every month at 12:00 PM and record 45 minutes of audio in OGG format:
 
 ```
-0 12 1 * * /path/to/record_stream.sh 2700 ogg
+0 12 1 * * /path/to/record_stream.sh -d 2700 -f ogg
 ```
 
 Make sure to replace `/path/to/record_stream.sh` with the actual path to your script.
