@@ -123,9 +123,9 @@ This project follows a modular structure to make it easy to understand, maintain
 
 - `audio_functions.sh`: Contains functions related to audio processing, such as starting the listening process and applying audio filters.
 - `config_functions.sh`: Functions to read and parse the `config.ini` file.
-- `helper_functions.sh`: General helper functions like logging, input validation, and scheduling.
+- `helper_functions.sh`: General helper functions.
 - `logging_functions.sh`: Functions for logging messages, errors, and other information.
-- `networking_functions.sh`: Functions related to network operations, such as generating unique ports and setting up an SSH tunnel.
+- `networking_functions.sh`: Functions related to network operations, such as generating unique ports and make sure that generated ports are not already in use.
 - `scheduling_functions.sh`: Functions to manage scheduling of the recording process.
 - `ssh_utils.sh`: Functions for managing SSH connections and tunneling.
 - `validation_functions.sh`: Functions to validate user inputs and configuration settings.
