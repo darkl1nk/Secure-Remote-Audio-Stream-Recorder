@@ -91,6 +91,53 @@ export PATH=$PATH:/path/to/script_directory
 
 Now you can run the `record_stream.sh` script from any location.
 
+# Project Organization
+
+This project follows a modular structure to make it easy to understand, maintain, and contribute to. Here's an overview of the organization and the purpose of each file and directory:
+
+## Directories
+
+- `bin`: Contains the main script to start recording and streaming audio.
+- `config`: Stores the configuration file for the project.
+- `lib`: Contains the shell scripts for various helper functions and utilities.
+- `recordings`: This directory is where the recorded audio files are saved.
+- `log`: Contains log files for the various processes involved in the recording and streaming of audio.
+
+## Files
+
+### Top directory
+
+- `README.md`: This file contains the documentation, instructions, and guidelines for using and contributing to the project.
+- `CONTRIBUTING.md`: Guidelines for contributing to the project.
+- `LICENSE.md`: The license file for the project.
+
+### bin
+
+- `record_stream.sh`: The main script to start recording and streaming audio.
+
+### config
+
+- `config.ini`: Configuration file containing settings for the project.
+
+### lib
+
+- `audio_functions.sh`: Contains functions related to audio processing, such as starting the listening process and applying audio filters.
+- `config_functions.sh`: Functions to read and parse the `config.ini` file.
+- `helper_functions.sh`: General helper functions like logging, input validation, and scheduling.
+- `logging_functions.sh`: Functions for logging messages, errors, and other information.
+- `networking_functions.sh`: Functions related to network operations, such as generating unique ports and setting up an SSH tunnel.
+- `scheduling_functions.sh`: Functions to manage scheduling of the recording process.
+- `ssh_utils.sh`: Functions for managing SSH connections and tunneling.
+- `validation_functions.sh`: Functions to validate user inputs and configuration settings.
+
+### log
+
+- `README.md`: A placeholder file to ensure the directory structure is maintained in version control.
+
+### recordings
+
+- `README.md`: A placeholder file to ensure the directory structure is maintained in version control.
+
 ## Prerequisites
 
 To use this script, you need to have the following software installed on both the local machine and the remote device:
