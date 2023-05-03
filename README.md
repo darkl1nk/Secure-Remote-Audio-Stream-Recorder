@@ -97,24 +97,28 @@ This project follows a modular structure to make it easy to understand, maintain
 
 ```
 .
-├── bin
-│   └── record_stream.sh
-├── config
-│   └── config.ini
 ├── CONTRIBUTING.md
-├── lib
-│   ├── audio_functions.sh
-│   ├── config_functions.sh
-│   ├── helper_functions.sh
-│   ├── logging_functions.sh
-│   ├── networking_functions.sh
-│   ├── scheduling_functions.sh
-│   ├── ssh_utils.sh
-│   └── validation_functions.sh
 ├── LICENSE.md
-├── log
-│   └── README.md
 ├── README.md
+├── bin
+│   └── record_stream.sh
+├── config
+│   └── config.ini
+├── gui
+│   └── recorder_gui.py
+├── lib
+│   ├── audio_functions.sh
+│   ├── config_functions.sh
+│   ├── helper_functions.sh
+│   ├── logging_functions.sh
+│   ├── networking_functions.sh
+│   ├── scheduling_functions.sh
+│   └── validation_functions.sh
+├── log
+│   ├── README.md
+│   ├── ffmpeg_emission.log
+│   ├── ffmpeg_listening.log
+│   └── record_stream.log
 └── recordings
     └── README.md
 ```
@@ -142,7 +146,6 @@ This project follows a modular structure to make it easy to understand, maintain
 |              | `logging_functions.sh`    | Functions for logging messages, errors, and other information.           |
 |              | `networking_functions.sh` | Functions related to network operations.                                 |
 |              | `scheduling_functions.sh` | Functions to manage scheduling of the recording process.                 |
-|              | `ssh_utils.sh             | Functions for managing SSH connections and tunneling.                    |
 |              | `validation_functions.sh` | Functions to validate user inputs and configuration settings.            |
 | `log`        | `README.md`               | Placeholder file to ensure directory structure in version control.       |
 | `recordings` | `README.md`               | Placeholder file to ensure directory structure in version control.       |
