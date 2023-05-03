@@ -1,0 +1,36 @@
+[2023-05-02 17:02:32] [INFO] ============================================
+[2023-05-02 17:02:32] [INFO] Starting Secure Remote Audio Stream Recorder
+[2023-05-02 17:02:32] [INFO] ============================================
+[2023-05-02 17:02:32] [INFO] Check requirements on [[darklink]]
+[2023-05-02 17:02:32] [INFO] Creating the SSH tunnel between [[darklink]] (port: 25230) and [[10.0.0.2]] (port: 19926)
+[2023-05-02 17:02:43] [INFO] Starting to listen on local server [[darklink]]
+[2023-05-02 17:02:43] [INFO] Saving audio file in: /home/darklink/Secure-Remote-Audio-Stream-Recorder/recordings/2023-05-02_17-02-32_to_2023-05-02_17-03-02.mp3
+[2023-05-02 17:02:45] [INFO] Starting emission on remote server [[10.0.0.2]]
+[2023-05-02 17:03:19] [INFO] Emission started successfully on remote server [[10.0.0.2]]
+[2023-05-02 17:03:19] [INFO] Emission ended
+[2023-05-02 17:03:19] [INFO] Removing SSH tunnel
+[2023-05-02 17:09:44] [INFO] ============================================
+[2023-05-02 17:09:44] [INFO] Starting Secure Remote Audio Stream Recorder
+[2023-05-02 17:09:44] [INFO] ============================================
+[2023-05-02 17:09:44] [INFO] Check requirements on [[darklink]]
+[2023-05-02 17:09:44] [ERROR] Please provide a valid integer duration as an argument.
+[2023-05-02 17:09:54] [INFO] ============================================
+[2023-05-02 17:09:54] [INFO] Starting Secure Remote Audio Stream Recorder
+[2023-05-02 17:09:54] [INFO] ============================================
+[2023-05-02 17:09:54] [INFO] Check requirements on [[darklink]]
+[2023-05-02 17:09:54] [ERROR] Invalid schedule format: 4/2/23 5:09 PM
+[2023-05-02 17:10:03] [INFO] ============================================
+[2023-05-02 17:10:03] [INFO] Starting Secure Remote Audio Stream Recorder
+[2023-05-02 17:10:03] [INFO] ============================================
+[2023-05-02 17:10:03] [INFO] Check requirements on [[darklink]]
+[2023-05-02 17:10:03] [ERROR] Invalid schedule format: 4/2/23 5:09 PM
+[2023-05-02 17:10:03] [INFO] ============================================
+[2023-05-02 17:10:03] [INFO] Starting Secure Remote Audio Stream Recorder
+[2023-05-02 17:10:03] [INFO] ============================================
+[2023-05-02 17:10:03] [INFO] Check requirements on [[darklink]]
+[2023-05-02 17:10:03] [ERROR] Invalid schedule format: 4/2/23 5:09 PM
+[2023-05-02 17:10:17] [INFO] ============================================
+[2023-05-02 17:10:17] [INFO] Starting Secure Remote Audio Stream Recorder
+[2023-05-02 17:10:17] [INFO] ============================================
+[2023-05-02 17:10:17] [INFO] Check requirements on [[darklink]]
+[2023-05-02 17:10:17] [ERROR] Invalid schedule format: 4/2/23 5:09 PM

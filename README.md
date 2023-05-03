@@ -54,7 +54,7 @@ This will schedule an audio stream recording for 60 seconds and save it as an MP
 
 If everything goes fine the output would look like this:
 
-```bash
+```
 [2023-04-30 16:55:30] [INFO] ============================================
 [2023-04-30 16:55:30] [INFO] Starting Secure Remote Audio Stream Recorder
 [2023-04-30 16:55:30] [INFO] ============================================
@@ -69,7 +69,7 @@ If everything goes fine the output would look like this:
 
 Or if you are scheduling the recording for later:
 
-```bash
+```
 [2023-05-01 13:15:59] [INFO] ============================================
 [2023-05-01 13:15:59] [INFO] Starting Secure Remote Audio Stream Recorder
 [2023-05-01 13:15:59] [INFO] ============================================
@@ -283,7 +283,7 @@ Example `config.ini`:
 ```ini
 remote_ssh_user=<remote_user_goes_here>
 remote_ssh_server_ip=<remote_ip_address_goes_here>
-output_directory=<audio_files_go_here>
+audio_utput_directory=<audio_files_go_here>
 default_duration=60
 default_format=mp3
 log_file=../log/record_stream.log
