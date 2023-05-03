@@ -8,8 +8,8 @@
 - [Project organization](#project-organization)
 - [Prerequisites](#prerequisites)
 - [Logging](#logging)
-- [Setting up a WireGuard VPN between the local machine and the remote server](#setting-up-a-wireguard-vpn)
-- [Alternative scheduling with `cron`](#alternative-scheduling-wth-cron)
+- [Setting up a WireGuard VPN between the local machine and the remote server](#setting-up-a-wireguard-vpn-between-the-local-machine-and-the-remote-server)
+- [Alternative scheduling with `cron`](#alternative-scheduling-with-cron)
 
 
 ## Project description
