@@ -37,6 +37,9 @@ source "${script_dir}/../lib/scheduling_functions.sh"
 source "${script_dir}/../lib/ssh_utils.sh"
 source "${script_dir}/../lib/validation_functions.sh"
 
+# Set up the trap to catch SIGINT (CTRL + C)
+trap trap_ctrl_c SIGINT
+
 # =================================== Main ====================================
 
 # Load configuration from the config.ini file

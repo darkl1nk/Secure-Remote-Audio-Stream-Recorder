@@ -40,3 +40,8 @@ get_timestamps() {
   end_timestamp=$(date -d "+${duration} seconds" '+%Y-%m-%d_%H-%M-%S')
 }
 
+function trap_ctrl_c() {
+    log_message "INFO" "Program terminated by the user."
+    exit 1
+}
+
