@@ -1,5 +1,19 @@
 # Secure Remote Audio Stream Recorder
 
+## Contents of this README.md file
+
+- [Project description](#project-description)
+- [Features](#features)
+- [Usage](#usage)
+- [Project organization](#project-organization)
+- [Prerequisites](#prerequisites)
+- [Logging](#logging)
+- [Setting up a WireGuard VPN between the local machine and the remote server](#setting-up-a-wireguard-vpn)
+- [Alternative scheduling with `cron`](#alternative-scheduling-wth-cron)
+
+
+## Project description
+
 This script is designed to record an audio stream of a specified duration and format from a remote device and save it as an audio file with timestamps. It establishes an SSH tunnel between the local machine and the remote device to ensure the audio stream is encrypted and secure during transmission. This not only maintains the privacy of the stream but also prevents unauthorized access to the audio data.
 
 In addition to basic recording capabilities, the script offers audio filtering options to enhance the quality of the recorded audio and scheduling functionality for deferred recording. These include noise reduction, which helps minimize background noise and improve audio clarity, and equalization, which allows you to adjust the frequency balance of the audio to emphasize or de-emphasize certain frequencies. Scheduling options are provided using the `at` command, allowing you to set a specific time or delay for the script to start recording. This makes it suitable for a wide range of audio recording scenarios, from capturing podcasts and interviews to recording ambient sounds.
@@ -104,8 +118,6 @@ This project follows a modular structure to make it easy to understand, maintain
 │   └── record_stream.sh
 ├── config
 │   └── config.ini
-├── gui
-│   └── recorder_gui.py
 ├── lib
 │   ├── audio_functions.sh
 │   ├── config_functions.sh
