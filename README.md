@@ -298,7 +298,7 @@ Example `config.ini`:
 ```ini
 remote_ssh_user=<remote_user_goes_here>
 remote_ssh_server_ip=<remote_ip_address_goes_here>
-audio_utput_directory=<audio_files_go_here>
+audio_output_directory=<audio_files_go_here>
 default_duration=60
 default_format=mp3
 log_file=../log/record_stream.log
