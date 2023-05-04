@@ -409,7 +409,7 @@ sudo yum install wireguard-dkms wireguard-tools
 
 After completing the steps above, you should have a secure WireGuard VPN connection between your local machine and the remote server. Update the `remote_ssh_server_ip` variable in your `config.ini` file to use the remote server's VPN IP address.
 
-## Alternative scheduling  with cron
+## Alternative scheduling with cron
 
 To orchestrate scheduled recordings, you can also use `cron`, a time-based job scheduler in Unix-like operating systems. `cron` allows you to run scripts at specified intervals, such as every minute, hourly, daily, or at specific times.
 
