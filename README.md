@@ -1,5 +1,8 @@
 # Secure Remote Audio Stream Recorder
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/darkl1nk/Secure-Remote-Audio-Stream-Recorder?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/v/release/darkl1nk/Secure-Remote-Audio-Stream-Recorder?style=flat-square)
+
 ## Contents of this README.md file
 
 - [Project description](#project-description)
